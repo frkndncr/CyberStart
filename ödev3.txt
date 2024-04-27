@@ -1,0 +1,22 @@
+Root olarak 7 elemanını ekleyelim.
+5 elemanı 7'den küçük olduğu için sola eklenir.
+1 elemanı 7'den küçük olduğu için sola eklenir.
+8 elemanı 7'den büyük olduğu için sağa eklenir.
+3 elemanı 7'den küçük olduğu için sola, 5'ten büyük olduğu için sağa eklenir.
+6 elemanı 7'den küçük olduğu için sola, 5'ten büyük olduğu için sağa eklenir.
+0 elemanı 7'den küçük olduğu için sola, 1'den küçük olduğu için sola eklenir.
+9 elemanı 7'den büyük olduğu için sağa eklenir.
+4 elemanı 7'den küçük olduğu için sola, 5'ten küçük olduğu için sola eklenir.
+2 elemanı 7'den küçük olduğu için sola, 5'ten küçük olduğu için sola, 4'ten büyük olduğu için sağa eklenir.
+Bu aşamaları yazarsak:
+
+Root: 7
+Sol: 5, 1, 0, 3, 2, 4
+Sağ: 8, 9
+Sol-Sol: 0
+Sol-Sol-Sağ: 1
+Sol-Sağ: 3
+Sol-Sağ-Sol: 2
+Sol-Sağ-Sağ: 4
+Sağ-Sağ: 9
+Sol-Sol-Sağ-Sağ: 8
